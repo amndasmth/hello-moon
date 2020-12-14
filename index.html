@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello Moon</title>
+  </head>
+  <body>
+    <!-- This is a comment -->
+    <h2>Don't forget to look at the moon tonight</h2>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam laudantium illo possimus veniam accusamus, error itaque quisquam minus ducimus culpa dolores delectus aliquid eligendi! Illo voluptatibus saepe provident modi autem.</p>
+    <br>
+
+    <!--Lists-->
+    <ul>
+      <li style="color:purple">Purple</li>
+      <li style="color:blue">Blue</li>
+      <li>Black</li>
+    </ul>
+
+    <ol>
+      <li>One</li>
+      <li>Two</li>
+      <li>Three</li>
+    </ol>
+    
+    <br>
+
+    <!--Tables-->
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Sign</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Luna</td>
+          <td>luna@email.com</td>
+          <td>Cancer</td>
+        </tr>
+        <tr>
+          <td>Sol</td>
+          <td>sol@email.com</td>
+          <td>Aries</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <br> 
+    <hr> <!--adds a horizontal line on the page-->
+    <!--Forms-->
+    <form action="process.php" method="POST"> <!--posts requests to a server/database-->
+      <div>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstName">
+      </div>
+      <br>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" name="email">
+      </div>
+      <br>
+      <div>
+        <label for="sign">Astrology Sign</label>
+        <input type="text" name="sign">
+      </div>
+      <br>
+      <div>
+        <label for="gender">Gender</label>
+        <select name="Gender">
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+          <option value="Non-binary">Non-binary</option>
+          <option value="Prefer not">Prefer not to say</option>
+        </select>
+      </div>
+      <br>
+      <div>
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday">
+      </div>
+      <br>
+      <input type="submit" name="submit" value="submit">
+    </form>
+    
+    <br>
+
+    <!--Buttons-->
+    <button>Click for Moon Phase</button>
+    <br>
+
+    <!--Images-->
+    <img src="moon.jpg" alt="an image of the full moon">
+    <div style="margin-top:500px"></div>
+  </body>
+</html>
